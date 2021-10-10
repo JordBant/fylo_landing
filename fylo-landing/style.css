@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div > *
+{
+    opacity: 0;
+}
+
+/* 
+=========================
+Semantic Parent Sections 
+=========================
+*/
+
+.fylo-nav
+{
+    background: olivedrab;
+}
+
+.fylo-main
+{
+    background: paleturquoise;
+}
+
+.main-upper
+{
+    border: gold 5px solid;
+}
+
+.main-lower
+{
+    border: red 5px solid;
+}
+
+.fylo-footer
+{
+    background: grey;
+    width: 100vw;
+    height: 375px;
+}
