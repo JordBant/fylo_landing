@@ -14,6 +14,7 @@ Semantic Parent Sections
 .fylo-header
 {
     background: olivedrab;
+    height: 14vh;
 }
 
 .fylo-main
@@ -37,29 +38,55 @@ Header Semantic Section & Children
 ===================================
 */
 
+
+
 /* 
 ===============================
 Main Semantic Section Children
 ===============================
 */
 
+.main-up, .main-mid, .main-low
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-up
 {
     border: gold 5px solid;
     width: 100%;
-    height: 80%;
+    height: 35%;
 }
+/* ------------------  */
+/* Main-Upper Children */
+/* ------------------- */
 
 .main-mid
 {
     border: 2px solid fuchsia;
+    height: 50%;
 }
+
+/* -------------------- */
+/* Main-Middle Children */
+/* -------------------- */
 
 .main-low
 {
-    display: flex;
     border: red 5px solid;
-    height: 20%;
+    height: 15%;
+}
+
+/* -----------------  */
+/* Main-Low Children  */
+/* -----------------  */
+
+.lower-article
+{
+    border: 2px solid red;
+    width: 25%;
 }
 
 /* 
