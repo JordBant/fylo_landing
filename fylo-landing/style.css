@@ -5,40 +5,92 @@
     box-sizing: border-box;
 }
 
-div > *
-{
-    opacity: 0;
-}
-
 /* 
 =========================
 Semantic Parent Sections 
 =========================
 */
 
-.fylo-nav
+.fylo-header
 {
     background: olivedrab;
+    height: 14vh;
 }
 
 .fylo-main
 {
     background: paleturquoise;
+    height: 100vw;
 }
 
-.main-upper
-{
-    border: gold 5px solid;
-}
-
-.main-lower
-{
-    border: red 5px solid;
-}
 
 .fylo-footer
 {
     background: grey;
-    width: 100vw;
-    height: 375px;
+    width: 100%;
+    height: auto;
+    padding: 50px;
 }
+
+/* 
+===================================
+Header Semantic Section & Children
+===================================
+*/
+
+
+
+/* 
+===============================
+Main Semantic Section Children
+===============================
+*/
+
+.main-up, .main-mid, .main-low
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-up
+{
+    border: gold 5px solid;
+    width: 100%;
+    height: 35%;
+}
+/* ------------------  */
+/* Main-Upper Children */
+/* ------------------- */
+
+.main-mid
+{
+    border: 2px solid fuchsia;
+    height: 50%;
+}
+
+/* -------------------- */
+/* Main-Middle Children */
+/* -------------------- */
+
+.main-low
+{
+    border: red 5px solid;
+    height: 15%;
+}
+
+/* -----------------  */
+/* Main-Low Children  */
+/* -----------------  */
+
+.lower-article
+{
+    border: 2px solid red;
+    width: 25%;
+}
+
+/* 
+==========================
+Footer Section & Children
+==========================
+*/
