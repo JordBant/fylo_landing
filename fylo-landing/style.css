@@ -26,10 +26,12 @@ Semantic Parent Sections
 
 .fylo-footer
 {
-    background: grey;
+    background: rgb(2, 2, 87);
     width: 100%;
-    height: auto;
+    height: 40vh;
     padding: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* 
@@ -57,8 +59,14 @@ Main Semantic Section Children
 {
     padding: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+/* Captures all article tags */
+#main-text 
+{
+    width: 40%;
 }
 
 .main-up
@@ -70,7 +78,7 @@ Main Semantic Section Children
 
 .pic1, .pic2 
 {
-    width: 47%;
+    width: 45%;
     height: auto;
 }
 
@@ -110,18 +118,55 @@ Main Semantic Section Children
     height: 15%;
 }
 
+.canvas-placeholder
+{
+    border: 2px solid red;
+    height: 200px;
+    width: 400px;
+}
+
 /* -----------------  */
 /* Main-Low Children  */
 /* -----------------  */
 
 .lower-article
 {
-    border: 2px solid red;
+    margin-right: 10px;
     width: 25%;
 }
+
+.submission-div
+{
+    height: 100px; 
+    width: 30%;
+}
+
+.submission-div > *
+{
+    margin: 3px;
+}
+
+.submission-div > input
+{
+    min-height: 40px; 
+    width: 100%;
+}
+
+.submission-div > .submit-btn
+{
+    min-height: 40px; 
+    width: 40%;
+}
+
+
 
 /* 
 ==========================
 Footer Children
 ==========================
 */
+
+#anchor-items, #content-list > li
+{
+    
+}
